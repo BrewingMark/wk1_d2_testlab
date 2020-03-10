@@ -88,6 +88,6 @@ def number_to_short_month_name(month_number)
   end
 end
 
-def volume_of_a_cube(side_length)
+def volume_of_cube(side_length)
   return side_length * side_length * side_length
 end
