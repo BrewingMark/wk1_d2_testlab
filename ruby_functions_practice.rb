@@ -89,5 +89,10 @@ def number_to_short_month_name(month_number)
 end
 
 def volume_of_cube(side_length)
-  return side_length * side_length * side_length
+  return side_length **3
+end
+
+def volume_of_sphere(r)
+  ans = (4.0/3.0)* 3.14159* (r**3).round(1)
+  return ans.round(1)
 end
